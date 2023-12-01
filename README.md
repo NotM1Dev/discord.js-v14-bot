@@ -1,6 +1,6 @@
 # discord.js v14 bot
 
-An open-source Discord bot, developed in a YouTube series.
+An open-source Discord bot for a YouTube series.
 
 ## Links
 - [discord.js Homepage](https://discord.js.org)
