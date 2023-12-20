@@ -6,3 +6,7 @@ node_modules/
 
 # miscellaneous
 **/.DS_Store
+
+# builds
+.commandkit
+dist

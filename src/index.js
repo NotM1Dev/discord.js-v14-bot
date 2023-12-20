@@ -1,5 +1,8 @@
-require("dotenv/config");
-const { Client, GatewayIntentBits } = require("discord.js");
+require('dotenv/config');
+
+const { Client, GatewayIntentBits } = require('discord.js');
+const { CommandKit } = require('commandkit');
+const path = require('path');
 
 const client = new Client({
   intents: [
@@ -10,8 +13,10 @@ const client = new Client({
   ],
 });
 
-client.once("ready", () => {
-  console.log(`${client.user.tag} is online.`);
+new CommandKit({
+  client,
+  eventsPath: path.join(__dirname, 'events'),
+  commandsPath: path.join(__dirname, 'commands'),
 });
 
 client.login(process.env.DISCORD_TOKEN);
