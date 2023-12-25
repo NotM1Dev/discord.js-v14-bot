@@ -1,0 +1,18 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../data/.test.db"
+}
+
+// We will not use this model, it is just an example
+model Example {
+  id       String  @id @default(uuid())
+  example  String?
+  example2 Int
+}

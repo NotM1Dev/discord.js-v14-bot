@@ -9,14 +9,14 @@ const client = new Client({
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMembers,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent,
-  ],
+    GatewayIntentBits.MessageContent
+  ]
 });
 
 new CommandKit({
   client,
   eventsPath: path.join(__dirname, 'events'),
-  commandsPath: path.join(__dirname, 'commands'),
+  commandsPath: path.join(__dirname, 'commands')
 });
 
 client.login(process.env.DISCORD_TOKEN);

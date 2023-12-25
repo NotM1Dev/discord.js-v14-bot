@@ -1,5 +1,5 @@
 # dependencies
-node_modules/
+node_modules
 
 # environment
 .env
@@ -10,3 +10,7 @@ node_modules/
 # builds
 .commandkit
 dist
+
+# data
+data
+**/*.db
