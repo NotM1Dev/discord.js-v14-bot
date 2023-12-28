@@ -1,4 +1,4 @@
-# discord.js v14 bot
+# Discord.js v14 Bot
 
 An open-source Discord bot for a YouTube series.
 
