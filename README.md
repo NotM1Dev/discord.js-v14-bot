@@ -23,6 +23,7 @@ Here's how to get started with this template:
 
 **Database**
 
+- Update the URL in the schema file to an actual path
 - Initialize database: `npx prisma db push`
 
 **Environment Variables**

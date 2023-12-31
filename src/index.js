@@ -16,7 +16,8 @@ const client = new Client({
 new CommandKit({
   client,
   eventsPath: path.join(__dirname, 'events'),
-  commandsPath: path.join(__dirname, 'commands')
+  commandsPath: path.join(__dirname, 'commands'),
+  bulkRegister: true
 });
 
 client.login(process.env.DISCORD_TOKEN);

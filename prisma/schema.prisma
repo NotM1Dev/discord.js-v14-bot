@@ -10,9 +10,8 @@ datasource db {
   url      = "file:../data/.test.db"
 }
 
-// We will not use this model, it is just an example
-model Example {
-  id       String  @id @default(uuid())
-  example  String?
-  example2 Int
+model WelcomeMessage {
+  guildId   String @id @unique
+  channelId String
+  message   String
 }
