@@ -15,3 +15,9 @@ model WelcomeMessage {
   channelId String
   message   String
 }
+
+model FarewellMessage {
+  guildId   String @id @unique
+  channelId String
+  message   String
+}
