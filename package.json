@@ -1,20 +1,20 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "scripts": {
-    "dev": "commandkit dev",
-    "build": "commandkit build",
-    "start": "commandkit start"
-  },
-  "dependencies": {
-    "@prisma/client": "^5.7.1",
-    "commandkit": "^0.1.10",
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.3.1",
-    "render-templates": "^1.0.2"
-  },
-  "devDependencies": {
-    "prisma": "^5.7.1"
-  }
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "commandkit dev",
+        "build": "commandkit build",
+        "start": "commandkit start"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.7.1",
+        "commandkit": "^0.1.10",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.3.1",
+        "render-templates": "^1.0.2"
+    },
+    "devDependencies": {
+        "prisma": "^5.7.1"
+    }
 }
